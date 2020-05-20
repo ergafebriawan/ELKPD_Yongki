@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hasilSkor"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:layout_margin="50dp"
+        android:text="HASIL SKOR"
+        android:gravity="center"
+        android:fontFamily="casual"/>
+
+    <TextView
+        android:id="@+id/txtSkorHasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:layout_margin="20dp"
+        android:text="0"
+        android:gravity="center"
+        android:fontFamily="casual"/>
+
+    <TextView
+        android:id="@+id/txtComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_margin="30dp"
+        android:text="Comment"
+        android:gravity="center"
+        android:fontFamily="casual"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/btnUlangi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ulangi"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:fontFamily="casual"/>
+        <Button
+            android:id="@+id/btnSelesai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selesai"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:fontFamily="casual"/>
+    </LinearLayout>
+
+</LinearLayout>

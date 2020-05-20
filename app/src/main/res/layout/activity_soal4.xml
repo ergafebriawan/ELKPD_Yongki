@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soal4"
+    android:orientation="vertical">
+
+    <include layout="@layout/header"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <WebView
+                android:id="@+id/video"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/soal4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Soal4"
+                android:fontFamily="casual"
+                android:textSize="15sp"
+                android:layout_margin="20sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_margin="20sp">
+                <TextView
+                    android:id="@+id/tokoh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pohon Mangga"
+                    android:fontFamily="casual"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20sp"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+                    <CheckBox
+                        android:id="@+id/pil1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sombong"
+                        android:fontFamily="casual"/>
+                    <CheckBox
+                        android:id="@+id/pil2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ramah"
+                        android:fontFamily="casual"/>
+                    <CheckBox
+                        android:id="@+id/pil3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Merasa Rupawan"
+                        android:fontFamily="casual"/>
+                    <CheckBox
+                        android:id="@+id/pil4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rendah Hati"
+                        android:fontFamily="casual"/>
+                    <CheckBox
+                        android:id="@+id/pil5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cuek"
+                        android:fontFamily="casual"/>
+                    <CheckBox
+                        android:id="@+id/pil6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Suka Menolong"
+                        android:fontFamily="casual"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:layout_gravity="center"
+                android:fontFamily="casual"
+                android:layout_marginBottom="50dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

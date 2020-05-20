@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KIKD"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kompetensi Dasar dan Kompentesi Indikator"
+        android:textSize="20sp"
+        android:layout_margin="20sp"
+        android:gravity="center"
+        android:fontFamily="casual"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TableLayout
+        android:id="@+id/tableKD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="20dp"
+        android:gravity="center">
+        <TableRow
+            android:background="@color/colorAccent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No."
+                android:padding="5dp"
+                android:fontFamily="casual"
+                android:layout_column="1"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kompetensi Dasar"
+                android:padding="5dp"
+                android:fontFamily="casual"
+                android:layout_column="2"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kompetensi Indikator"
+                android:padding="5dp"
+                android:fontFamily="casual"
+                android:layout_column="3"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+        </TableRow>
+    </TableLayout>
+    </ScrollView>
+
+</LinearLayout>

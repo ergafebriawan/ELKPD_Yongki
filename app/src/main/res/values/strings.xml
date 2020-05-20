@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">E-LKPD</string>
+    <string name="h1">E-LKPD</string>
+    <string name="h2">TEMA 8 DAERAH TEMPAT TINGGAL KU</string>
+    <string name="h3">SUBTEMA 3 BANGGA TERHADAP DAERAH TEMPAT TINGGALKU</string>
+    <string name="h4">PEMBELAJARAN 3</string>
+
+    <string name="mulai">Mulai</string>
+    <string name="profile">Profile</string>
+    <string name="petunjuk">Petunjuk</string>
+    <string name="KD">KI dan KD</string>
+    <string name="Keluar">Keluar</string>
+
+    <string name="ceritaSoal2">Kancil merupakan hewan yang cerdik, ia selalu menggunakan kepandaiannya
+        untuk mengelabuhi musuhnya seperti ia lakukan pada buaya saat menyeberang sungai.
+        Ia mencoba melompati buaya dengan alasan untuk menghitung berapa jumlah dari buaya.
+        Kancil punmelompat dari punggung ke punggungya sembari menghitung jumlah buaya hingga sampailah buaya ke tepi sungai.
+        Dan tanpa buaya sadari bahwa ia sudah tertipu oleh kancil.</string>
+    <string name="pengantarSoal6">Nah kalian sudah belajar tentang hal yang terkait dengan cerita fiksi,
+        cerita fiksi tercipta dari angan-angan seorang penulis yang berkiatan dengan kehidupan sehari-hari.
+        Penulis membuat karya berupa cerita fiksi tidak lain untuk mencukupi diri dalam hal ekonomi.
+        Untuk mengetahui lebih lanjut mari kita amati gambar kegiatan ekonomi  di bawah ini.</string>
+    <string name="pengantarSoal7">Nelayan merupakan salah satu mata pencaharian sebagian orang yang hidup di daerah pesisir pantai.
+        Setiap hari mereka mencari ikan di lautan demi mencukupi kebutuhan hidup.
+        Mereka mencari ikan dan kemudian menjualnya ke pasar untuk mendapatkan upah dari hasil tangkapan mereka.</string>
+    <string name="pengantarSoal10">Berbagai kegiatan ekonomi dilakukan oleh masyarakat.
+        Hal ini membuat berbagai macam profesi pekerjaan tumbuh dan berkemang di lingkungan masyarakat setempat.
+        Selain keberagaman profesi, di Indonesia juga mempunyai berbagai macam agama, salah satunya di Jawa Timur.
+        Untuk lebih jelasnya mari kita simak video berikut. </string>
+    <string name="pengantarSoal11">Adi adalah seoarang yang taat terhadap ajaran agamanya.
+        Ia selalu mengamalkan ilmu dalam kehidupan.
+        Dengan Bergama Adi merasa dirinya sudah tercukupi dalam hal spiritual terhadap Tuhan.
+        Adi merasa hidupnya lebih bermakna dan aman dalam menjalankan segala sesuatu aktivitas</string>
+    <string name="pengantarSoal13">Keberagaman agama di Indonesia merupakan wujud dari penerapan Pancasila.
+        Berbagai sikap yang sesuai dengan isi Pancasila kini sudah mulai dilupakan.
+        Untuk lebih jelasnya mari kita simak video berikut ini!</string>
+
+    <string name="petunjuk1">1. Pilih lah salah satu jawaban pada soal pilihan ganda</string>
+    <string name="petunjuk2">2. Pilih lah beberapa pilihan jika soal pilhan centang</string>
+    <string name="petunjuk3">3. isilah jawaban pada soal essay</string>
+</resources>

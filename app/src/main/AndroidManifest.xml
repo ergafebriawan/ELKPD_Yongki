@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.e_lkpd">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/play"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Petunjuk"></activity>
+        <activity android:name=".KIKD" />
+        <activity android:name=".Profile" />
+        <activity android:name=".hasilSkor" />
+        <activity android:name=".Soal13" />
+        <activity android:name=".Soal12" />
+        <activity android:name=".Soal11" />
+        <activity android:name=".Soal10" />
+        <activity android:name=".Soal9" />
+        <activity android:name=".Soal8" />
+        <activity android:name=".Soal7" />
+        <activity android:name=".Soal6" />
+        <activity android:name=".Soal5" />
+        <activity android:name=".Soal4" />
+        <activity android:name=".Soal3" />
+        <activity android:name=".Soal2" />
+        <activity android:name=".Soal1" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soal1"
+    android:orientation="vertical">
+
+    <include layout="@layout/header"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coba kalian perhatikan gambar di bawah ini"
+        android:layout_gravity="center"
+        android:textSize="15dp"
+        android:fontFamily="casual"
+        android:layout_marginBottom="20dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/soal1_0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apakah kalian tidak asing dengan tokoh binatang tersebut.
+Nah sekarang, coba kalian baca komik di bawah ini."
+        android:layout_gravity="center"
+        android:textSize="15dp"
+        android:fontFamily="casual"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_gravity="center"
+            android:src="@drawable/soal1_1"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_gravity="center"
+            android:src="@drawable/soal1_2"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_gravity="center"
+            android:src="@drawable/soal1_3"
+            android:layout_margin="10dp"/>
+        <include layout="@layout/pilgan"/>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
